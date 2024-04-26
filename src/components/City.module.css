@@ -1,0 +1,69 @@
+.city {
+    padding: 2rem 3rem;
+    max-height: 70%;
+    background-color: #42484d;
+    border-radius: 7px;
+    overflow: scroll;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .city h6 {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: #aaa;
+  }
+  
+  .city h3 {
+    font-size: 1.9rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .city h3 span {
+    font-size: 3.2rem;
+    line-height: 1;
+  }
+  
+  .city p {
+    font-size: 1.6rem;
+  }
+  
+  .city a:link,
+  .city a:visited {
+    font-size: 1.6rem;
+    color: #ffb545;
+  }
+
+  .btn {
+    color: inherit;
+    text-transform: uppercase;
+    padding: 0.8rem 1.6rem;
+    font-family: inherit;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .primary {
+    font-weight: 700;
+    background-color: #00c46a;
+    color: #42484d;
+  }
+  
+  .back {
+    font-weight: 600;
+    background: none;
+    border: 1px solid currentColor;
+  }
